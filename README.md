@@ -1,2 +1,2 @@
-# rayatiga-super-app
-Super application from Rayatiga extracted from all features and services to all-in-one application.
+# rayatiga
+Rayatiga is an agency engaged in fast web development technology. We can help develop your website based on CMS WordPress.

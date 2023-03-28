@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /founder
+Disallow: /payment
+Disallow: /hosting/arc
+
+Sitemap: https://rayatiga.com/sitemap.xml

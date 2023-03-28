@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Work Sans', sans-serif;
+    --light: #f8f9fa;
+    --dark: #212529;
+}
+*::selection {
+    color: var(--light);
+    background-color: var(--dark);
+}
+.navbar-brand,
+.card-title,
+u {
+    font-weight: bold;
+}
+button,
+a {
+    cursor: pointer;
+}
+span.anchor {
+    height: 4.5rem;
+    display: block;
+    position: relative;
+    visibility: hidden;
+    margin-top: -4.5rem;
+}
+span.anchor-3 {
+    height: 7.5rem;
+    display: block;
+    position: relative;
+    visibility: hidden;
+    margin-top: -7.5rem;
+}
+@-webkit-keyframes shadow-drop-center {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0.25rem 0.25rem rgba(255, 255, 255, 0.75);
+        -webkit-box-shadow: 0 0 0.25rem 0.25rem rgba(255, 255, 255, 0.75);
+    }
+}
+@keyframes shadow-drop-center {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0.25rem 0.25rem rgba(255, 255, 255, 0.75);
+        -webkit-box-shadow: 0 0 0.25rem 0.25rem rgba(255, 255, 255, 0.75);
+    }
+}
+.shadow-breathing {
+    animation: shadow-drop-center 0.5s ease-in-out infinite alternate both;
+    -webkit-animation: shadow-drop-center 0.5s ease-in-out infinite alternate both;
+}
