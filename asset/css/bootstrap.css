@@ -2015,7 +2015,8 @@ progress {
     background-color: var(--bs-form-control-bg);
     border-color: #86b7fe;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    /* Change (2) box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); */
+    box-shadow: 0 0 0 0.25rem rgba(105, 105, 105, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
     height: 1.5em;
