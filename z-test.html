@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="robots" content="noindex, nofollow" />
     </head>
     <body>
-        <div id="template-nav"></div>
-        <div style="height: calc(100vh - 73px);"></div>
-        <div id="template-footer"></div>
+        <div id="template-nav" role="navigation"></div>
+        <div style="height: calc(100vh - 73px)" role="main"></div>
+        <div id="template-footer" role="contentinfo"></div>
         <script src="/asset/javascript/jquery.js"></script>
         <script>
-            $(function(){
-              $("#template-nav").load("/asset/template/nav.html");
-              $("head").load("/asset/template/head.html")
-              $("#template-footer").load("/asset/template/footer.html")
-            });
-            </script>
+            $(function () {
+                $('#template-nav').load('/asset/template/nav.html')
+                $('head').load('/asset/template/head.html')
+                $('#template-footer').load('/asset/template/footer.html')
+            })
+        </script>
     </body>
 </html>

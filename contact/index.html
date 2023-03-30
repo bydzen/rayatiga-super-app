@@ -18,10 +18,8 @@
             content="Contact Rayatiga and tell us what your business idea is, we will be happy to help." />
         <meta property="og:image" content="https://rayatiga.com/asset/image/rayatiga-og.png" />
         <link rel="stylesheet" href="/asset/css/main.css" />
-        <link rel="stylesheet" href="/asset/css/bootstrap.css" />
-        <script defer type="text/javascript" src="/asset/javascript/bootstrap.bundle.js"></script>
-        <link rel="stylesheet" href="/asset/css/aos.css" />
-        <script type="text/javascript" src="/asset/javascript/aos.js"></script>
+        <link rel="stylesheet" href="/asset/css/bootstrap.min.css" />
+        <script defer type="text/javascript" src="/asset/javascript/bootstrap.bundle.min.js"></script>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -74,7 +72,7 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu bg-light">
-                                <li><h6 class="dropdown-header">Web Hosting</h6></li>
+                                <li><h6 class="dropdown-header">Rayatiga Web Hosting</h6></li>
                                 <li><a class="dropdown-item" href="/hosting/">Home</a></li>
                                 <li>
                                     <a class="dropdown-item" href="/hosting/about/">About</a>
@@ -138,9 +136,9 @@
         </nav>
         <main
             class="container bg-light text-center d-flex flex-column justify-content-center align-items-center"
-            style="min-height: calc(100vh - 73px)">
-            <h1 class="fw-bolder" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">Contact.</h1>
-            <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            style="min-height: calc(100vh - 73px); padding-top: 73px">
+            <h1 class="fw-bolder">Contact.</h1>
+            <p>
                 <!-- Change (1) Feel free to contact us. We will respond as soon as possible. If you have any questions, criticisms,
                 suggestions, input, just press the button below to send an email to our developer team! -->
                 Feel free to contact us. We will respond as soon as possible. If you have any comment, suggestions,
@@ -150,15 +148,12 @@
                 class="btn btn-dark"
                 href="mailto:contact@rayatiga.com"
                 target="_blank"
-                data-aos="fade-up"
-                data-aos-delay="400"
-                data-aos-duration="1000"
                 >contact@rayatiga.com</a
             > -->
             <section class="text-start w-100 bg-light">
                 <div class="container">
                     <form action="https://formspree.io/f/xknavynp" method="post">
-                        <div class="mb-3" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="mb-3">
                             <label for="email" class="form-label"
                                 >Email address <span class="text-danger">*</span></label
                             >
@@ -170,7 +165,7 @@
                                 placeholder="name@example.com"
                                 required />
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                        <div>
                             <label for="message" class="form-label"
                                 >Comment or message <span class="text-danger">*</span></label
                             >
@@ -181,20 +176,8 @@
                                 rows="5"
                                 placeholder="What's on your mind?"
                                 required></textarea>
-                            <button
-                                type="submit"
-                                class="btn btn-dark mt-3 d-none d-md-block"
-                                data-aos="fade-up"
-                                data-aos-delay="800"
-                                data-aos-duration="1000">
-                                Send Message
-                            </button>
-                            <button
-                                type="submit"
-                                class="btn btn-dark mt-3 d-block d-md-none w-100"
-                                data-aos="fade-up"
-                                data-aos-delay="800"
-                                data-aos-duration="1000">
+                            <button type="submit" class="btn btn-dark mt-3 d-none d-md-block">Send Message</button>
+                            <button type="submit" class="btn btn-dark mt-3 d-block d-md-none w-100">
                                 Send Message
                             </button>
                         </div>
@@ -205,8 +188,5 @@
         <footer class="d-flex justify-content-center align-items-center border-top" style="height: 73px">
             <p class="text-center text-secondary m-0">Copyright &copy; Rayatiga 2023</p>
         </footer>
-        <script>
-            AOS.init()
-        </script>
     </body>
 </html>
