@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Work Sans-Local';
-    src: url(../font/WorkSans-VariableFont_wght.ttf);
+    src: url(../font/work-sans.ttf);
 }
 @font-face {
     font-family: 'Source Code Pro-Local';
-    src: url(../font/SourceCodePro-VariableFont_wght.ttf);
+    src: url(../font/source-code-pro.ttf);
 }
 html body {
     font-family: 'Work Sans-Local', sans-serif;
