@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <div id="template-nav"></div>
+        <div style="height: calc(100vh - 73px);"></div>
+        <div id="template-footer"></div>
+        <script src="/asset/javascript/jquery.js"></script>
+        <script>
+            $(function(){
+              $("#template-nav").load("/asset/template/nav.html");
+              $("head").load("/asset/template/head.html")
+              $("#template-footer").load("/asset/template/footer.html")
+            });
+            </script>
+    </body>
+</html>
