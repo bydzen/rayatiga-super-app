@@ -3274,10 +3274,12 @@ fieldset:disabled .btn {
     --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(var(--bs-body-color-rgb), 0.15);
     --bs-dropdown-link-color: var(--bs-body-color);
     --bs-dropdown-link-hover-color: var(--bs-body-color);
-    --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
-    --bs-dropdown-link-active-color: #fff;
+    /* Change (3) --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg); */
+    --bs-dropdown-link-hover-bg: var(--bs-gray-200);
+    /* Change (4)--bs-dropdown-link-active-color: #fff; */
+    --bs-dropdown-link-active-color: var(--bs-body-color);
     /* Change (1) --bs-dropdown-link-active-bg: #0d6efd; */
-    --bs-dropdown-link-active-bg: var(--bs-dark);
+    --bs-dropdown-link-active-bg: var(--bs-gray-300);
     --bs-dropdown-link-disabled-color: #adb5bd;
     --bs-dropdown-item-padding-x: 1rem;
     --bs-dropdown-item-padding-y: 0.25rem;
