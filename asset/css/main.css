@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'Work Sans-Local';
+    font-family: "Work Sans-Local";
     src: url(../font/work-sans.ttf);
 }
 @font-face {
-    font-family: 'Source Code Pro-Local';
+    font-family: "Source Code Pro-Local";
     src: url(../font/source-code-pro.ttf);
 }
 html body {
-    font-family: 'Work Sans-Local', sans-serif;
+    font-family: "Work Sans-Local", sans-serif;
     --light: #f8f9fa;
     --dark: #212529;
 }
@@ -40,4 +40,21 @@ span.anchor-3 {
     position: relative;
     visibility: hidden;
     margin-top: -7.5rem;
+}
+
+header,
+main {
+    animation-name: fade;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
