@@ -6,10 +6,15 @@
     font-family: 'Source Code Pro-Local';
     src: url(../font/source-code-pro.ttf);
 }
+/* #AIM-FOR-DEBUGGING,
+* {
+    outline: 1px solid #000000;
+    background: rgba(255, 0, 0, 0.1) fixed;
+} */
 html body {
-    font-family: 'Work Sans-Local', sans-serif;
-    --light: #f8f9fa;
     --dark: #212529;
+    --light: #f8f9fa;
+    font-family: 'Work Sans-Local', sans-serif;
 }
 body::-webkit-scrollbar {
     display: none;
@@ -17,11 +22,6 @@ body::-webkit-scrollbar {
 *::selection {
     color: var(--light);
     background-color: var(--dark);
-}
-.navbar-brand,
-.card-title,
-u {
-    font-weight: bold;
 }
 button,
 a {
@@ -55,4 +55,36 @@ main {
     to {
         opacity: 1;
     }
+}
+.h-73px {
+    height: 73px !important;
+}
+.pt-73px {
+    padding-top: 73px !important;
+}
+.w-25rem {
+    width: 22.75rem !important;
+}
+.pre-page {
+    height: 44vh !important;
+    border-radius: 12px !important;
+    border: 5px solid var(--bs-border-color) !important;
+}
+.single-page {
+    padding-top: 73px !important;
+    min-height: calc(100vh - 73px) !important;
+}
+.text-magenta {
+    color: #c208c2 !important;
+}
+.border-magenta {
+    border: 1px solid #c208c2 !important;
+}
+.btn-outline-magenta {
+    color: #c208c2 !important;
+    border: 1px solid #c208c2 !important;
+}
+.btn-outline-magenta:hover {
+    color: #ffffff !important;
+    background: #c208c2 !important;
 }

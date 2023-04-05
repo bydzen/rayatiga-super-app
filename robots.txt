@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /founder
 Disallow: /payment
-Disallow: /hosting/archive
+Disallow: /asset/template
+Disallow: /hosting/res
 
 Sitemap: https://rayatiga.com/sitemap.xml
