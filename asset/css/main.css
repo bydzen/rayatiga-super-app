@@ -70,6 +70,18 @@ main {
     border-radius: 12px !important;
     border: 5px solid var(--bs-border-color) !important;
 }
+.scroll-top {
+    opacity: 0;
+    right: 25px;
+    bottom: 20px;
+    z-index: 99;
+    position: fixed;
+    padding: 5px 10px;
+    transition: 500ms all;
+    background: #f8f9fa;
+    border: 1px solid #212529;
+    outline: 5px solid #f8f9fa;
+}
 .single-page {
     padding-top: 73px !important;
     min-height: calc(100vh - 73px) !important;
@@ -86,5 +98,9 @@ main {
 }
 .btn-outline-magenta:hover {
     color: #ffffff !important;
-    background: #c208c2 !important;
+    background: #c208c2c5 !important;
+}
+.btn-outline-magenta:focus-visible {
+    background: #c208c2c5 !important;
+    box-shadow: 0 0 0 0.25rem rgba(184, 12, 109, 0.5) !important;
 }
