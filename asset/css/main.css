@@ -56,6 +56,30 @@ main {
         opacity: 1;
     }
 }
+.background-home {
+    height: 100vh;
+    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/img/web-hosting-home.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-about {
+    height: 60vh;
+    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/img/web-hosting-about.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-contact {
+    height: 60vh;
+    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/img/web-hosting-contact.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-pricing {
+    height: 60vh;
+    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/img/web-hosting-pricing.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .h-73px {
     height: 73px !important;
 }
@@ -68,7 +92,7 @@ main {
 .pre-page {
     height: 44vh !important;
     border-radius: 12px !important;
-    border: 5px solid var(--bs-border-color) !important;
+    border: 5px solid var(--root-border-color) !important;
 }
 .scroll-top {
     opacity: 0;
@@ -85,6 +109,11 @@ main {
 .single-page {
     padding-top: 73px !important;
     min-height: calc(100vh - 73px) !important;
+}
+.spinner-normal {
+    width: 3rem !important;
+    height: 3rem !important;
+    border-width: 0.7rem !important;
 }
 .text-magenta {
     color: #c208c2 !important;
