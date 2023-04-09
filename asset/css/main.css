@@ -58,25 +58,25 @@ main {
 }
 .background-home {
     height: 100vh;
-    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/img/web-hosting-home.webp);
+    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/image/hosting/home.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .background-about {
     height: 60vh;
-    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/img/web-hosting-about.webp);
+    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/image/hosting/about.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .background-contact {
     height: 60vh;
-    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/img/web-hosting-contact.webp);
+    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/image/hosting/contact.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .background-pricing {
     height: 60vh;
-    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/img/web-hosting-pricing.webp);
+    background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url(/asset/image/hosting/pricing.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }

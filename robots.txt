@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
-Disallow: /arc
+Disallow: /founder
+Disallow: /payment
 Disallow: /asset/template
-Disallow: /hosting/res
+Disallow: /hosting/checkout
 
 Sitemap: https://rayatiga.com/sitemap.xml
